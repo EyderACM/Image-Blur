@@ -1,3 +1,9 @@
+	:root {
+		--base: #ffc600;
+		--spacing: 10px;
+		--blur: 10px;
+	}
+
 	body{	
 		font-family: sans-serif;
 		text-align: center;
@@ -17,7 +23,14 @@
 
 	img {
 		position: relative;
+		padding: var(--spacing);
+		background: var(--base);
+		filter: blur(var(--blur));
 		top: 30px;
 		width: 450px;
 		height: 450px;
+	}
+
+	.h1 {
+		color: var(--base);
 	}
