@@ -1,0 +1,23 @@
+	body{	
+		font-family: sans-serif;
+		text-align: center;
+		background: #f7ff2d;
+		font-weight: 100;
+		font-size: 30px;
+	}
+
+	.controls {
+		position: relative;
+		top: -5px;
+	}
+
+	.input {
+		width: 100px;
+	}
+
+	img {
+		position: relative;
+		top: 30px;
+		width: 450px;
+		height: 450px;
+	}
